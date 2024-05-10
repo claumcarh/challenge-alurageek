@@ -1,0 +1,32 @@
+{
+ "productos": [
+   {
+      "id": 1,
+      "nombre": "LEGO House",
+      "descripcion": "Casa de legos",
+      "precio": "$800.000",
+      "imagen-url": "https://www.lego.com/cdn/cs/set/assets/blt4ec90da36b68ebcf/21037.jpg?format=webply&fit=bounds&quality=70&width=800&height=800&dpr=1.5"
+    },
+    {
+      "id": 2,
+      "nombre": "",
+      "descripcion": "",
+      "precio": "",
+      "imagen": ""
+    },
+    {
+      "id": 3,
+      "nombre": "",
+      "descripcion": "",
+      "precio": "",
+      "imagen": ""
+    },
+    {
+      "id": 4,
+      "nombre": "",
+      "descripcion": "",
+      "precio": "",
+      "imagen": ""
+    }
+  ]
+}
