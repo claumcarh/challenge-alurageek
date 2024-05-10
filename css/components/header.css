@@ -1,0 +1,21 @@
+.header {
+  background-color: rgba(83, 0, 200, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 0 7px 0.9px 0 rgba(0, 0, 0, 0.25);
+}
+
+.header__logo {
+ width: 138px;
+ height: 56px;
+}
+
+.header__text {
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 16px;
+ color: rgba(229, 229, 229, 1);
+}

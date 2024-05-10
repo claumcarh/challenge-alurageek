@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  color: rgba(3, 49, 140, 1);
+  gap: 40px;
+}
+
+.form__controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid rgba(3, 49, 140, 1);
+  border-radius: 20px;
+  height: 58px;
+  padding: 10px 12.64px;
+}
+
+.form__label {
+  display: none;
+}
+
+.form__input-text {
+  font-size: 16px;
+  line-height: 20.8px;
+}
+
+.form__input-text::placeholder {
+  color: rgba(3, 49, 140, 1);
+}
+
+.form__error-message {
+  display: none;
+}
