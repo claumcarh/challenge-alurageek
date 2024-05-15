@@ -3,55 +3,55 @@
    {
       "id": 1,
       "nombre": "El duro trabajo de un broker",
-      "precio": "$90.000",
+      "precio": 90000,
       "imagen-url": ""
     },
     {
       "id": 2,
       "nombre": "Legendaria nave de star wars",
-      "precio": "$80.000",
+      "precio": 80000,
       "imagen": ""
     },
     {
       "id": 3,
       "nombre": "The mandalorian",
-      "precio": "$10.000",
+      "precio": 10000,
       "imagen": ""
     },
     {
       "id": 4,
       "nombre": "Home Lego",
-      "precio": "$20.000",
+      "precio": 20000,
       "imagen": ""
     },
     {
       "id": 5,
       "nombre": "Lego moto",
-      "precio": "$30.000",
+      "precio": 30000,
       "imagen": ""
     },
     {
       "id": 6,
       "nombre": "Girls' Legos",
-      "precio": "$40.000",
+      "precio": 40000,
       "imagen": ""
     },
     {
       "id": 7,
       "nombre": "Lego SPIDER-MAN",
-      "precio": "$50.000",
+      "precio": 50000,
       "imagen": ""
     },
     {
       "id": 8,
       "nombre": "Lego 7+",
-      "precio": "$60.000",
+      "precio": 60000,
       "imagen": ""
     },
     {
       "id": 9,
       "nombre": "LEGO Toys & Minifigure",
-      "precio": "$70.000",
+      "precio": 70000,
       "imagen": ""
     }
   ]
