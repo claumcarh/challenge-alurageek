@@ -2,30 +2,56 @@
  "productos": [
    {
       "id": 1,
-      "nombre": "LEGO House",
-      "descripcion": "Casa de legos",
-      "precio": "$800.000",
-      "imagen-url": "https://www.lego.com/cdn/cs/set/assets/blt4ec90da36b68ebcf/21037.jpg?format=webply&fit=bounds&quality=70&width=800&height=800&dpr=1.5"
+      "nombre": "El duro trabajo de un broker",
+      "precio": "$90.000",
+      "imagen-url": ""
     },
     {
       "id": 2,
-      "nombre": "",
-      "descripcion": "",
-      "precio": "",
+      "nombre": "Legendaria nave de star wars",
+      "precio": "$80.000",
       "imagen": ""
     },
     {
       "id": 3,
-      "nombre": "",
-      "descripcion": "",
-      "precio": "",
+      "nombre": "The mandalorian",
+      "precio": "$10.000",
       "imagen": ""
     },
     {
       "id": 4,
-      "nombre": "",
-      "descripcion": "",
-      "precio": "",
+      "nombre": "Home Lego",
+      "precio": "$20.000",
+      "imagen": ""
+    },
+    {
+      "id": 5,
+      "nombre": "Lego moto",
+      "precio": "$30.000",
+      "imagen": ""
+    },
+    {
+      "id": 6,
+      "nombre": "Girls' Legos",
+      "precio": "$40.000",
+      "imagen": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Lego SPIDER-MAN",
+      "precio": "$50.000",
+      "imagen": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Lego 7+",
+      "precio": "$60.000",
+      "imagen": ""
+    },
+    {
+      "id": 9,
+      "nombre": "LEGO Toys & Minifigure",
+      "precio": "$70.000",
       "imagen": ""
     }
   ]
