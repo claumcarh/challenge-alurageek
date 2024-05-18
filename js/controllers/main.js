@@ -72,10 +72,12 @@ async function enviarFormulario(e) {
 
 function validarInput(e) {
   const element = e.target;
+  const container = element.parentElement;
 
   if (!element.validity.valid) {
-    const container = element.parentElement;
-    container.classList.remove('form__controls-container--error')
+    container.classList.add('form__controls-container--error');
+  } else {
+    container.classList.remove('form__controls-container--error');
   }
 
   if (form.checkValidity()) {

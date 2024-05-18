@@ -80,15 +80,6 @@
         "src": "./img/lego9.jpg",
         "alt": "imagen"
       }
-    },
-    {
-      "id": "1938",
-      "nombre": "Lego Ninja Go",
-      "precio": "12458",
-      "imagen": {
-        "src": "./img/lego10.jpg",
-        "alt": "imagen"
-      }
     }
   ]
 }
