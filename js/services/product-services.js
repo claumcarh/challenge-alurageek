@@ -20,7 +20,18 @@ const createProduct = (nombre, precio, imagen) => {
     .catch((err) => console.log(err));
 };
 
+const deleteProduct = (id) => {
+  return fetch(`http://localhost:3001/products/${id}`, {
+    method: 'DELETE',
+  })
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
+};
+
+
+
 export const servicesProducts = {
   productList,
   createProduct,
+  deleteProduct,
 };

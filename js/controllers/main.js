@@ -6,6 +6,7 @@ const name = document.querySelector("#name");
 const precio = document.querySelector("#precio");
 const imagen = document.querySelector("#imagen");
 const botonEnviar = document.querySelector("#botonEnviar");
+let cardDelete;
 
 function createCard(id, nombre, precio, imagen, productsContainer) {
   const card = document.createElement('li');
@@ -54,6 +55,9 @@ const render = async () => {
       );
     });
 
+    cardDelete = productsContainer.querySelectorAll(".card__delete");
+    cardDelete.forEach((el) => el.addEventListener('click', eliminarProducto));
+
   } catch (error) {
     console.log("error");
   }
@@ -87,11 +91,17 @@ function validarInput(e) {
   }
 }
 
+function eliminarProducto(e) {
+  const element = e.currentTarget;
+  const dataId = element.dataset.id;
+  servicesProducts.deleteProduct(dataId);
+
+}
+
 name.addEventListener('focusout', validarInput);
 precio.addEventListener('focusout', validarInput);
 imagen.addEventListener('focusout', validarInput);
 
 form.addEventListener('submit', enviarFormulario);
-
 
 render();

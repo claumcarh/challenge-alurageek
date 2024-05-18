@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "El duro trabajo de un broker",
       "precio": 90000,
       "imagen": {
@@ -10,7 +10,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Legendaria nave de star wars",
       "precio": 80000,
       "imagen": {
@@ -19,7 +19,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "The mandalorian",
       "precio": 10000,
       "imagen": {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Home Lego",
       "precio": 20000,
       "imagen": {
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Lego moto",
       "precio": 30000,
       "imagen": {
@@ -46,7 +46,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "nombre": "Girls' Legos",
       "precio": 40000,
       "imagen": {
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "nombre": "Lego SPIDER-MAN",
       "precio": 50000,
       "imagen": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "nombre": "Lego 7+",
       "precio": 60000,
       "imagen": {
@@ -73,11 +73,20 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "nombre": "LEGO Toys & Minifigure",
       "precio": 70000,
       "imagen": {
         "src": "./img/lego9.jpg",
+        "alt": "imagen"
+      }
+    },
+    {
+      "id": "592b",
+      "nombre": "Lego Ninja Go",
+      "precio": "12458",
+      "imagen": {
+        "src": "./img/lego10.jpg",
         "alt": "imagen"
       }
     }
