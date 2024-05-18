@@ -52,9 +52,8 @@
     <main class="main">
       <section class="add-product">
         <p class="add-product__title">AGREGAR PRODUCTO:</p>
-
         <form
-          id="formulario"
+          id="form"
           class="form"
           action="#"
           novalidate
@@ -97,8 +96,7 @@
                 name="precio"
                 required
                 min="0"
-                max="1"
-                step="0.01"
+                max="10000000"
                 placeholder="precio..."
               />
             </div>
@@ -109,7 +107,7 @@
             <div class="form__controls-container">
               <label
                 class="form__label"
-                for="img"
+                for="imagen"
                 >Imágen</label
               >
               <input
@@ -128,15 +126,13 @@
               class="button button__enviar"
               type="submit"
               id="botonEnviar"
-              disabled
             >
               Enviar
             </button>
             <button
               class="button button__limpiar"
-              type="submit"
+              type="reset"
               id="botonLimpiar"
-              disabled
             >
               Limpiar
             </button>
